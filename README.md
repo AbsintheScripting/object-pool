@@ -1,6 +1,9 @@
 # ObjectPool
 **A Modern C++23 Object Pool Implementation (Header-only)**
 
+[![C++23](https://img.shields.io/badge/dialect-C%2B%2B23-blue)](https://en.cppreference.com/w/cpp/23)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 ---
 
 ## Overview
