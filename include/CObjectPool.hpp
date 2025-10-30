@@ -78,7 +78,7 @@ concept pool_object = std::default_initializable<T>;
  * CObjectPool<CEnemy> enemies(128); // preallocate 128 enemies
  *
  * size_t idx;
- * if (auto result = enemies.UseNext(idx)) {
+ * if (auto result = enemies.UseNext(idx); result.has_value()) {
  *     CEnemy* pEnemy = result.value();
  *     pEnemy->SpawnAt(position);
  * } else {
